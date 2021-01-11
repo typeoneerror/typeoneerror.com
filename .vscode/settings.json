@@ -1,7 +1,10 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "files.exclude": {
     "**/.cache": true,
     "**/.log": true,
     "src/.temp": true
-  }
+  },
+  "prettier.enable": true
 }
