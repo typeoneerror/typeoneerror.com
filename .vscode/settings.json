@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.log": true,
+    "src/.temp": true
+  }
+}
