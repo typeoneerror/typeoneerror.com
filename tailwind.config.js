@@ -5,6 +5,15 @@ module.exports = {
     extend: {
       colors: {
         brand: '#03ffc1',
+        // tetrad: https://paletton.com/#uid=73a0u0kvC++jy+pp-+WR3+VZDFh
+        // blue: 187DFF
+        // org: FF9F03
+        // red: FF6103
+
+        // purple: '#4303ff',
+        // burnt: '#ff0341',
+        // lime: '#bfff03',
+        //
         // $altColor: #e0e0e0;
         // $bgColor: #f5f5f5;
         // $blackColor: #060608;

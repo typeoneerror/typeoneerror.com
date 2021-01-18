@@ -7,6 +7,9 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/remark-prismjs": "^0.5.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
     "autoprefixer": "^10.2.1",
     "gridsome": "^0.7.0",
     "postcss": "^8.2.4",

@@ -21,7 +21,24 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './content/*.md',
+        remark: {
+          // plugins: [['@gridsome/remark-prismjs', { transformInlineCode: true }]],
+        },
+        typeName: 'Entry',
+      },
+    },
+  ],
   siteName: 'TYPEONEERROR',
   siteUrl: 'https://typeoneerror.com',
+  templates: {
+    Entry: '/:title',
+  },
+  transformers: {
+    remark: {},
+  },
 };

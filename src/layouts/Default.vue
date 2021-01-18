@@ -1,6 +1,6 @@
 <template>
-  <div class="max-w-3xl mx-auto px-8">
-    <header class="flex justify-between my-2 py-2">
+  <div class="container max-w-3xl mx-auto px-8">
+    <header class="flex justify-between my-6">
       <g-link to="/" class="block font-bold mb-2">{{ $static.metadata.siteName }}</g-link>
 
       <nav>
