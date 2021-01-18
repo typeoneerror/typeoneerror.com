@@ -4,7 +4,8 @@
   "files.exclude": {
     "**/.cache": true,
     "**/.log": true,
-    "src/.temp": true
+    "src/.temp": true,
+    "static/fonts": true
   },
   "prettier.enable": true
 }
