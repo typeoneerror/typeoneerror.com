@@ -2,9 +2,11 @@
   <Layout>
     <h1>Devlog</h1>
 
-    <article>
-      <h2>So You Need A New Keyboard</h2>
-    </article>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur <em>adipisicing elit</em>. Error doloremque omnis
+      animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem
+      dolores inventore iste reprehenderit maxime! Iusto.
+    </p>
   </Layout>
 </template>
 

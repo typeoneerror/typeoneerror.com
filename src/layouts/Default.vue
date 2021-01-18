@@ -4,7 +4,7 @@
       <g-link to="/" class="block font-bold mb-2">{{ $static.metadata.siteName }}</g-link>
 
       <nav>
-        <ul class="flex space-x-3">
+        <ul class="flex space-x-3 uppercase">
           <li><g-link to="/">Home</g-link></li>
           <li><g-link to="/devlog/">Devlog</g-link></li>
           <li><g-link to="/now/">Now</g-link></li>

@@ -2,7 +2,7 @@
   <Layout>
     <h1>Uses</h1>
 
-    <p class="bg-gray-100 p-4 rounded">
+    <p class="bg-gray-100 italic p-4 rounded">
       Inspired by <a href="https://www.dandevri.es/uses" target="_blank">Danny De Vries</a>
     </p>
 

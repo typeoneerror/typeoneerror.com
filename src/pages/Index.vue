@@ -1,8 +1,6 @@
 <template>
   <Layout>
-    <h1>Home</h1>
-
-    <p>I make apps for coaches and put out fires.</p>
+    <h1>I make apps for coaches and put out fires.</h1>
   </Layout>
 </template>
 
