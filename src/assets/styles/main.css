@@ -52,14 +52,15 @@ h6 {
 }
 
 a {
-  color: theme('colors.gray.600');
+  color: theme('colors.gray.900');
   text-decoration: underline;
   text-decoration-color: theme('colors.brand');
-  transition: 150ms linear color;
+  transition: 150ms ease color, 150ms ease text-decoration-color;
 }
 
 a:hover {
   color: theme('colors.gray.800');
+  text-decoration-color: #4303ff;
 }
 
 strong {
