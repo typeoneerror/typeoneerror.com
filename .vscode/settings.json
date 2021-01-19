@@ -7,5 +7,11 @@
     "src/.temp": true,
     "static/fonts": true
   },
-  "prettier.enable": true
+  "prettier.enable": true,
+  "vetur.grammar.customBlocks": {
+    "docs": "md",
+    "i18n": "json",
+    "page-query": "graphql",
+    "static-query": "graphql"
+  }
 }
