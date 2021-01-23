@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <MainLayout>
     <h1>Devlog</h1>
 
     <p>
@@ -16,7 +16,7 @@
         <p v-if="entry.node.desc">desc: {{ entry.node.desc }}</p>
       </article>
     </section>
-  </Layout>
+  </MainLayout>
 </template>
 
 <script>

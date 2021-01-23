@@ -4,15 +4,16 @@
 require('~/assets/styles/main.css');
 
 import DefaultLayout from '~/layouts/Default.vue';
+import MainLayout from '~/layouts/Main.vue';
 
 export default function (Vue, { router, head, isClient }) {
-  // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
+  Vue.component('MainLayout', MainLayout);
 
-  head.htmlAttrs = { lang: 'en' };
+  head.htmlAttrs = { lang: 'en', class: 'h-full' };
 
   head.bodyAttrs = {
     class:
-      'antialiased bg-white diagonal-fractions leading-relaxed text-gray-600 dark:bg-gray-900 dark:text-gray-50',
+      'antialiased bg-white diagonal-fractions font-sans h-full leading-relaxed text-gray-500 dark:bg-gray-900 dark:text-gray-50',
   };
 }

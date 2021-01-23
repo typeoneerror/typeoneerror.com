@@ -1,6 +1,6 @@
 <template>
   <MainLayout>
-    <h1>Now</h1>
+    <h1>About</h1>
 
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi,
@@ -13,7 +13,7 @@
 <script>
   export default {
     metaInfo: {
-      title: 'Now',
+      title: 'About',
     },
   };
 </script>

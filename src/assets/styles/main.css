@@ -5,9 +5,7 @@
 @import 'fonts/basier-circle.css';
 @import 'fonts/recoleta.css';
 
-body {
-  font-family: 'Basier Circle', system-ui, -apple-system, sans-serif;
-}
+/* Base Typography */
 
 h1,
 h2,
@@ -18,7 +16,7 @@ h6 {
   color: theme('colors.gray.900');
   font-family: Recoleta, serif;
   font-weight: bold;
-  line-height: theme('lineHeight.tight');
+  line-height: theme('lineHeight.none');
 }
 
 h1 {
@@ -54,15 +52,33 @@ h6 {
 a {
   color: theme('colors.gray.900');
   text-decoration: underline;
-  text-decoration-color: theme('colors.brand');
   transition: 150ms ease color, 150ms ease text-decoration-color;
 }
 
 a:hover {
   color: theme('colors.gray.800');
-  text-decoration-color: #4303ff;
+}
+
+small {
+  font-size: inherit;
 }
 
 strong {
   font-weight: 600;
+}
+
+/* Header */
+
+[data-brand-image] {
+  background: url('~@/assets/images/typeoneerror.png') no-repeat 0 0;
+  background-position: 0 -16px;
+  background-size: 162px 48px;
+  height: 16px;
+  text-indent: -9999rem;
+  transition: 0.2s ease-out all;
+  width: 162px;
+}
+
+[data-brand-image]:hover {
+  background-position: 0 0;
 }

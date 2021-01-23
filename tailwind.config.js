@@ -29,6 +29,9 @@ module.exports = {
         whitesmoke: 'whitesmoke',
       },
     },
+    fontFamily: {
+      sans: "'Basier Circle', system-ui, -apple-system, sans-serif",
+    },
   },
   variants: {
     extend: {},
